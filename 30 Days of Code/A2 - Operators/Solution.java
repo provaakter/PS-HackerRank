@@ -9,8 +9,8 @@ import java.util.regex.;
 public class Solution {
 
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
-        double tip_cost = meal_cost  tip_percent  100;
-        double tax_cost = meal_cost  tax_percent  100;
+        double tip_cost = meal_cost * tip_percent / 100;
+        double tax_cost = meal_cost * tax_percent / 100;
         int total_cost = (int)Math.round(meal_cost + tip_cost + tax_cost);
         System.out.print(total_cost);
     }
