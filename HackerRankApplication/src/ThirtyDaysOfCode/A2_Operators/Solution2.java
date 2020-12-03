@@ -1,3 +1,5 @@
+package ThirtyDaysOfCode.A2_Operators;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -6,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Solution2 {
 
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
         double tip_cost = meal_cost * tip_percent / 100;
